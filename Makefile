@@ -6,7 +6,7 @@
 #    By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/17 11:24:40 by cterblan          #+#    #+#              #
-#    Updated: 2018/07/20 13:13:50 by cterblan         ###   ########.fr        #
+#    Updated: 2018/07/20 13:31:51 by cterblan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -110,6 +110,7 @@ $(NAME): $(OBJ)
 	@echo "\033[35m\t\t[COMPILING] $@\033[0m"
 	ar rcs $(NAME) $(OBJ)
 	@echo "\033[32m\t\t[COMPILED SUCCESSFULLY]\033[0m"
+	@echo "\007"
 	#DON'T TOUCH ^^^
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
