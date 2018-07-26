@@ -6,7 +6,7 @@
 #    By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/17 11:24:40 by cterblan          #+#    #+#              #
-#    Updated: 2018/07/20 13:31:51 by cterblan         ###   ########.fr        #
+#    Updated: 2018/07/26 10:50:05 by cterblan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -107,6 +107,7 @@ CC := gcc $(CFLAGS)
 all: $(NAME)
 
 $(NAME): $(OBJ)
+	@echo "\033[34m\n\t\t[LIBFT]\033[0m"
 	@echo "\033[35m\t\t[COMPILING] $@\033[0m"
 	ar rcs $(NAME) $(OBJ)
 	@echo "\033[32m\t\t[COMPILED SUCCESSFULLY]\033[0m"
@@ -114,6 +115,7 @@ $(NAME): $(OBJ)
 	#DON'T TOUCH ^^^
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
+	@echo "\033[34m\t\t[LIBFT]\033[0m"
 	@echo "\033[36m\t\t[Building]\033[0m $@"
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) -I $(INC_DIR) -o $@ -c $<
@@ -121,11 +123,13 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	#DON'T TOUCH ^^^
 
 clean:
+	@echo "\033[34m\t\t[LIBFT]\033[0m"
 	@echo "\033[31m\t\t[CLEANING]\t$(OBJ_DIR)\033[0m"
 	@rm -rf $(OBJ_DIR)
 	#DON'T TOUCH ^^^
 
 fclean: clean
+	@echo "\033[34m\t\t[LIBFT]\033[0m"
 	@echo "\033[31m\t\t[FCLEAN]\t$(NAME)\033[0m"
 	@rm -f $(NAME)
 	#ADD ADDITIONAL NAME FILES HERE ^^^
