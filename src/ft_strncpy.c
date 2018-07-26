@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/30 16:27:35 by cterblan          #+#    #+#             */
-/*   Updated: 2018/05/31 08:28:50 by cterblan         ###   ########.fr       */
+/*   Updated: 2018/07/26 13:30:53 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../inc/libft.h"
 
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {

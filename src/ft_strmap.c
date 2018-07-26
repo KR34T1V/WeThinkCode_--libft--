@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/05 07:58:41 by cterblan          #+#    #+#             */
-/*   Updated: 2018/06/08 10:26:49 by cterblan         ###   ########.fr       */
+/*   Updated: 2018/07/26 13:30:56 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../inc/libft.h"
 
 char	*ft_strmap(const char *s, char (*f)(char))
 {

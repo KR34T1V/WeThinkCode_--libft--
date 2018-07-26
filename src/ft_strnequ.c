@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnequ.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/22 13:00:45 by cterblan          #+#    #+#             */
-/*   Updated: 2018/06/11 10:56:33 by cterblan         ###   ########.fr       */
+/*   Updated: 2018/07/26 13:30:51 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../inc/libft.h"
 
 int		ft_strnequ(const char *s1, const char *s2, size_t n)
 {
