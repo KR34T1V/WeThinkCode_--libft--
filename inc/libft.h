@@ -82,6 +82,7 @@ size_t				ft_strclen(char const *str, char c);
 size_t				ft_strlcat(char *s1, char const *s2, size_t dstsize);
 size_t				ft_strlen(char const *str);
 size_t				ft_wordcount_white(const char *s);
+size_t	            ft_wstrlen(wchar_t *ws);
 
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 t_list				*ft_lstnew(void const *content, size_t content_size);
