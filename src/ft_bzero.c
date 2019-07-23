@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/24 12:02:38 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:31:47 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:21:56 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 void	ft_bzero(void *str, size_t n)
 {

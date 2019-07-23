@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putwchar.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/24 07:03:39 by cterblan          #+#    #+#             */
-/*   Updated: 2018/09/21 19:43:15 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:25:15 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 static void	ft_putwchar_p2(wint_t wc, char *str)
 {

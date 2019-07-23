@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/21 10:50:35 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:30:57 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:25:56 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 size_t	ft_strlen(const char *str)
 {

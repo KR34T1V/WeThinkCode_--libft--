@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/24 14:25:20 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:31:25 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:24:39 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

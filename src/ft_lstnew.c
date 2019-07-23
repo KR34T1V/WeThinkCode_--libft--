@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/13 07:20:51 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:31:39 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:22:48 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 t_list	*ft_lstnew(const void *content, size_t content_size)
 {

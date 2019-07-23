@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit_white.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/08 11:55:59 by cterblan          #+#    #+#             */
-/*   Updated: 2018/09/21 19:13:15 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:26:19 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 char	**ft_strsplit_white(const char *s)
 {

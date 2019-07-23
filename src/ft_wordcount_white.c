@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_wordcount_white.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/08 13:07:50 by cterblan          #+#    #+#             */
-/*   Updated: 2018/09/21 19:13:11 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:26:38 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 size_t		ft_wordcount_white(const char *s)
 {

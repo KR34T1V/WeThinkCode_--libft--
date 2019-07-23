@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sizeof2d_char.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/17 09:52:16 by cterblan          #+#    #+#             */
-/*   Updated: 2018/09/21 19:13:18 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:25:20 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 size_t	ft_sizeof2d_char(char **array)
 {

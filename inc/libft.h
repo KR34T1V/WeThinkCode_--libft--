@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/17 11:59:55 by cterblan          #+#    #+#             */
-/*   Updated: 2018/09/21 19:40:28 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:20:30 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,7 @@
 # define TRUE 1
 # define FALSE 0
 
-# include <inttypes.h>
-# include <dirent.h>
-# include <stdarg.h>
-# include <stdlib.h>
-# include <stdio.h>
 # include <sys/types.h>
-# include <sys/stat.h>
-# include <unistd.h>
 # include <wchar.h>
 
 typedef	struct		s_list

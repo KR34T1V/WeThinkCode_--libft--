@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/28 13:30:23 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:31:00 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:25:49 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 void	ft_striteri(char *str, void (*f)(unsigned int, char *))
 {

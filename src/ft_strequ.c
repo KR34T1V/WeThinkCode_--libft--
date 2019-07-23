@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strequ.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/22 12:53:47 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:31:01 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:25:45 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 int		ft_strequ(char const *s1, char const *s2)
 {

@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_wstrlen.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/25 11:52:11 by cterblan          #+#    #+#             */
-/*   Updated: 2018/08/25 15:27:00 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:26:43 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 size_t	ft_wstrlen(wchar_t *ws)
 {

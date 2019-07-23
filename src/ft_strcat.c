@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+        */
+/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/31 08:35:35 by cterblan          #+#    #+#             */
-/*   Updated: 2018/07/26 13:31:07 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:25:22 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/libft.h"
+#include "../inc/private_libft_includes.h"
 
 char	*ft_strcat(char *s1, const char *s2)
 {
