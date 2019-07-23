@@ -6,12 +6,17 @@
 /*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/17 11:59:55 by cterblan          #+#    #+#             */
-/*   Updated: 2019/07/23 22:28:35 by cterblan         ###   ########.fr       */
+/*   Updated: 2019/07/23 22:31:30 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
+# define BUFF_SIZE 500
+# define BOLEAN int
+# define TRUE 1
+# define FALSE 0
 
 # include <sys/types.h>
 # include <wchar.h>
