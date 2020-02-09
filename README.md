@@ -113,15 +113,15 @@ Libft is a project which is part of the WeThinkCode_ curriculum. It is a library
 #### ft_strncat         
 (...)
 #### ft_strncmp         
-(compares two character strings up to the given ammount of characters)
+(compares two character strings up to the given amount of characters)
 #### ft_strequ          
 (...)
 #### ft_strnew          
 (returns a new malloc'ed string)
 #### ft_strnstr         
-(searches for a character string within another up to an input ammount of characters)
+(searches for a character string within another up to an input amount of characters)
 #### ft_strrchr         
-(...)
+(searches for the last occurance of a character within a string, if found returns a pointer to the character)
 #### ft_strsplit        
 (breaks up a character string into a 2d array containing each word set by a delimiter)
 #### ft_strsplit_white  
