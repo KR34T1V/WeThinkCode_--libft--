@@ -98,7 +98,7 @@ Libft is a project which is part of the WeThinkCode_ curriculum. It is a library
 (...)
 #### ft_striter         
 (iterate a string performing the input function on each character)
-#### ft_striter         
+#### ft_strniter         
 (iterate a string up to a certain length performing the input function on each character)
 #### ft_strjoin         
 (returns a malloc'ed string cointainging the two input strings)
