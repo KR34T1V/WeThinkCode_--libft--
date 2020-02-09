@@ -22,8 +22,6 @@ char	*ft_strrchr(const char *s, int c)
 	a = (char)c;
 	str = (char *)s;
 	tmp = NULL;
-	if (!s || !c)
-		return (NULL);
 	while (*str != '\0')
 	{
 		if (*str == a)
