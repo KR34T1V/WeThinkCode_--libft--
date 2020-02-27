@@ -12,6 +12,9 @@
 
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
+/*
+	Compares two piecies of input memory pointers up to "n" bytes
+*/
 
 int		ft_memcmp(const void *s1, const void *s2, size_t n)
 {

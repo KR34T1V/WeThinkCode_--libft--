@@ -13,6 +13,8 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*Checks if input character is a printable character*/
+
 int		ft_isprint(int n)
 {
 	if (n >= 32 && n <= 126)

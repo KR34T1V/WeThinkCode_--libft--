@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Checks if input character is whitespace
+*/
+
 int		ft_isspace(int n)
 {
 	if (n)

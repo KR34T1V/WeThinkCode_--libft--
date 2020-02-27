@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Checks if input character is uppercase
+*/
+
 int		ft_isupper(int n)
 {
 	if (n >= 'A' && n <= 'Z')

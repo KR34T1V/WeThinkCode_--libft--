@@ -13,6 +13,9 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	checks if input character is from the alphabet
+*/
 int		ft_isalpha(int n)
 {
 	if (ft_islower(n) == 1 || ft_isupper(n) == 1)

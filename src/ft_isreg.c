@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	checks if input path leads to a regular file
+*/
+
 int		ft_isreg(const char *path)
 {
 	struct stat	st;

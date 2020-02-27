@@ -22,7 +22,9 @@ static int	ft_move_on(const char *str)
 		i++;
 	return (i);
 }
-
+/*
+	converts a sting of numbers into an interger
+*/
 int			ft_atoi(char const *str)
 {
 	int i;

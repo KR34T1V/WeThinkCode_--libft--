@@ -12,7 +12,10 @@
 
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
-
+/*
+	Tries to allocate memory size, if unsuccessful returns NULL, 
+	otherwise it returns a pointer to cleared allocated memory.
+*/
 void	*ft_memalloc(size_t size)
 {
 	void *mem;

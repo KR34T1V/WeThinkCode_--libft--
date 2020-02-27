@@ -28,7 +28,9 @@ static void		ft_iszero(char *new, int n)
 	if (n == 0)
 		new[0] = '0';
 }
-
+/*
+	Converts the input interger and returns character string
+*/
 char			*ft_itoa(int n)
 {
 	size_t			i;
