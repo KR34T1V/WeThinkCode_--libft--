@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: cterblan <cterblan@student.wethinkcode>    +#+  +:+       +#+         #
+#    By: CTerblanche <1997corry@gmail.com>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/17 11:24:40 by cterblan          #+#    #+#              #
-#    Updated: 2018/09/21 19:42:06 by cterblan         ###   ########.fr        #
+#    Updated: 2020/02/27 18:18:58 by CTerblanche      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -98,6 +98,8 @@ SRC :=	ft_atoi.c\
 		ft_strsplit.c\
 		ft_strstr.c\
 		ft_strsub.c\
+		ft_strtolower.c\
+		ft_strtoupper.c\
 		ft_strtrim.c\
 		ft_tolower.c\
 		ft_toupper.c\

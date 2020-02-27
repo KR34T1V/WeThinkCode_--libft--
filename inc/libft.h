@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
+/*   By: CTerblanche <1997corry@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/17 11:59:55 by cterblan          #+#    #+#             */
-/*   Updated: 2019/07/23 22:31:30 by cterblan         ###   ########.fr       */
+/*   Updated: 2020/02/27 18:18:49 by CTerblanche      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,8 @@ char				*ft_strnew(size_t size);
 char				*ft_strnstr(char const *h, char const *ndle, size_t len);
 char				*ft_strrchr(char const *s, int c);
 char				*ft_strstr(char const *haystack, char const *needle);
+char 				*ft_strtolower(const char *str);
+char 				*ft_strtoupper(const char *str);
 char				*ft_strtrim(char const *s);
 
 int					ft_atoi(char const *str);
