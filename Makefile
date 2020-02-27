@@ -66,7 +66,9 @@ SRC :=	ft_atoi.c\
 		ft_putstr_fd.c\
 		ft_putstr.c\
 		ft_putwchar.c\
+		ft_putwchar_fd.c \
 		ft_putwstr.c\
+		ft_putwstr_fd.c \
 		ft_sizeof2d_char.c\
 		ft_strcat.c\
 		ft_strchr.c\

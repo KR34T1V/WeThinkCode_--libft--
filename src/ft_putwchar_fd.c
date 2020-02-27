@@ -14,10 +14,10 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Writes a unicode character to the standard output
+	Writes a unicode character "wc" to the "fd" file descriptor.
 */
 
-static void	ft_putwchar_p2(wint_t wc, char *str)
+static void	ft_putwchar_p2_fd(wint_t wc, char *str, int fd)
 {
 	if (wc <= 0x7F)
 		str[0] = (unsigned char)wc;
@@ -39,10 +39,10 @@ static void	ft_putwchar_p2(wint_t wc, char *str)
 		str[2] = 0x80 | (wc >> 6 & 0x3F);
 		str[3] = 0x80 | (wc & 0x3F);
 	}
-	ft_putstr(str);
+	ft_putstr_fd(str, fd);
 }
 
-int			ft_putwchar(wint_t wc)
+int			ft_putwchar_fd(wint_t wc, int fd)
 {
 	int		rtn;
 	char	*str;
@@ -57,7 +57,7 @@ int			ft_putwchar(wint_t wc)
 		rtn = 3;
 	else if (wc >= 65536 && wc <= 1114111)
 		rtn = 4;
-	ft_putwchar_p2(wc, str);
+	ft_putwchar_p2_fd(wc, str, fd);
 	free(str);
 	return (rtn);
 }

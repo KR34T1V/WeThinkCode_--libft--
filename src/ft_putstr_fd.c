@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes "str" string to the "fd" file descriptor.
+*/
+
 void	ft_putstr_fd(char const *str, int fd)
 {
 	int i;

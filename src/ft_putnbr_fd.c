@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes an interger "n" as a string to the "fd" file descriptor.
+*/
+
 void	ft_putnbr_fd(int n, int fd)
 {
 	long nbr;

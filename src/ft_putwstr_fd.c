@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   ft_putwstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cterblan <cterblan@students.wethinkcode    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/22 13:19:10 by cterblan          #+#    #+#             */
-/*   Updated: 2019/07/23 22:21:52 by cterblan         ###   ########.fr       */
+/*   Created: 2018/08/24 08:28:41 by cterblan          #+#    #+#             */
+/*   Updated: 2019/07/23 22:25:17 by cterblan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,41 +14,19 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	converts a sting of numbers into an interger
+	Writes a unicode character string to the "fd" file descriptor
 */
 
-static int	ft_move_on(const char *str)
+int		ft_putwstr_fd(wchar_t *ws, int fd)
 {
-	int i;
+	int		rtn;
+	int		i;
 
+	rtn = 0;
 	i = 0;
-	while (ft_isspace(str[i]))
-		i++;
-	return (i);
-}
-
-int			ft_atoi(char const *str)
-{
-	int i;
-	int sign;
-	int ans;
-
-	i = ft_move_on(str);
-	sign = 1;
-	ans = 0;
-	if (str[i] == '+' && ft_isdigit(str[i + 1]))
-		i++;
-	if (str[i] == '-' && ft_isdigit(str[i + 1]))
+	while (ws[i] != '\0')
 	{
-		sign = -1;
-		i++;
+		rtn += ft_putwchar_fd(ws[i++], fd);
 	}
-	while (ft_isdigit(str[i]))
-	{
-		ans += (str[i] - '0');
-		if (ft_isdigit(str[i + 1]))
-			ans *= 10;
-		i++;
-	}
-	return (ans * sign);
+	return (rtn);
 }

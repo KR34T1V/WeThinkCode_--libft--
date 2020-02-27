@@ -68,7 +68,9 @@ int					ft_toupper(int n);
 int					ft_tolower(int n);
 int					ft_wordcount(const char *s, char c);
 int					ft_putwchar(wint_t wc);
+int					ft_putwchar_fd(wint_t wc, int fd);
 int					ft_putwstr(wchar_t *ws);
+int					ft_putwstr_fd(wchar_t *ws, int fd);
 int					get_next_line(int const fd, char **line);
 
 size_t				ft_sizeof2d_char(char **t);

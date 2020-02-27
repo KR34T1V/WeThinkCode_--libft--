@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes "str" string to the standard output.
+*/
+
 void	ft_putstr(char const *str)
 {
 	int i;

@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes the giver "str" string followed by a new line "\n" to the standard output.
+*/
+
 void	ft_putendl(char const *s)
 {
 	int i;

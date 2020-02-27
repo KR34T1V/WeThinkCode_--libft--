@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes a character to standard output
+*/
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);

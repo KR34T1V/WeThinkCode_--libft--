@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes the giver "str" string followed by a new line "\n" to the "fd" file descriptor.
+*/
+
 void	ft_putendl_fd(char const *str, int fd)
 {
 	int i;

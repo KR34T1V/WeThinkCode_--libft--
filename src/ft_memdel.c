@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Frees and sets a pointer to NULL
+*/
+
 void	ft_memdel(void **ap)
 {
 	if (ap)

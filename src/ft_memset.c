@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Populates input pointer "mem" with character "c" for "len" bytes
+*/
+
 void	*ft_memset(void *mem, int c, size_t len)
 {
 	char *ptr;

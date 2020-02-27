@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Writes an interger "n" as a string to the standard output.
+*/
+
 void	ft_putnbr(int n)
 {
 	long	nbr;

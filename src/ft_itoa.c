@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Converts the input interger and returns character string
+*/
+
 static size_t	ft_getlen(int n)
 {
 	size_t	i;
@@ -28,9 +32,7 @@ static void		ft_iszero(char *new, int n)
 	if (n == 0)
 		new[0] = '0';
 }
-/*
-	Converts the input interger and returns character string
-*/
+
 char			*ft_itoa(int n)
 {
 	size_t			i;

@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	writes a character to a certain file descriptor
+*/
+
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
