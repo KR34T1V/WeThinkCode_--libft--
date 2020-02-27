@@ -13,6 +13,10 @@
 #include "../inc/private_libft_includes.h"
 #include "../inc/libft.h"
 
+/*
+	Returns the lowercase of char "n" if it exists.
+*/
+
 int		ft_tolower(int n)
 {
 	if (ft_isupper(n))

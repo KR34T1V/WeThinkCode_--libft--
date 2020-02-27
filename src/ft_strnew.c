@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Allocates a new empty string according to "size" and returns a pointer to it.
+*/
+
 char	*ft_strnew(size_t size)
 {
 	char	*str;

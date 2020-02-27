@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Counts all the words separated by white space in string "s".
+	Returns the amount of words found in string "s"
+*/
+
 size_t		ft_wordcount_white(const char *s)
 {
 	size_t	words;

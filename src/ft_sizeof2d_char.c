@@ -12,7 +12,9 @@
 
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
-
+/*
+	Returns the size of the input 2d array (including null terminate?)
+*/
 size_t	ft_sizeof2d_char(char **array)
 {
 	size_t i;

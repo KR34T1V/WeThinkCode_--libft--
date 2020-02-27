@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Returns the length of a wide character string "ws"
+*/
+
 size_t	ft_wstrlen(wchar_t *ws)
 {
 	int		i;

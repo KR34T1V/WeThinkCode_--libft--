@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Split string "s" at every whitespace, returning a string array,
+	containing all the split words
+*/
+
 char	**ft_strsplit_white(const char *s)
 {
 	char	**str;

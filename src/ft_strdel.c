@@ -13,11 +13,16 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
-void	ft_strdel(char **as)
+/*
+	Clears string, frees and points "str" to NULL. 
+*/
+
+void	ft_strdel(char **str)
 {
-	if (as)
+	if (str)
 	{
-		free(*as);
-		*as = NULL;
+		ft_strclr(*str);
+		free(*str);
+		*str = NULL;
 	}
 }

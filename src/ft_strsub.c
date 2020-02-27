@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Create an allocated sub string from string "s", starting from "start",
+	and ending at "len". The new allocated string is returned.
+*/
+
 char	*ft_strsub(const char *s, unsigned int start, size_t len)
 {
 	char			*new;

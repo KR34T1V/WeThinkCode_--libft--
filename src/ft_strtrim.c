@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Removes all whitespaces from the front and back of the string.
+	Returns an allocated trimmed string.
+*/
+
 char	*ft_strtrim(const char *s)
 {
 	int				end;

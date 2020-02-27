@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Itirates through each character in string "str"
+	and performs function "f" on them.
+*/
+
 void	ft_striter(char *str, void (*f)(char *))
 {
 	if (str != NULL && f != NULL)

@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Copies string "src" to "dst" and returns populated pointer to "dst".
+*/
+
 char	*ft_strcpy(char *dst, const char *src)
 {
 	char *tdst;

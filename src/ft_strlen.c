@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Returns the length of string "str" excluding the NULL terminate '\0'
+*/
+
 size_t	ft_strlen(const char *str)
 {
 	size_t i;

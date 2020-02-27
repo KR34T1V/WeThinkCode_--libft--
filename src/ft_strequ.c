@@ -12,7 +12,9 @@
 
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
-
+/*
+	Checks if string "s1" is equal to string "s2"
+*/
 int		ft_strequ(char const *s1, char const *s2)
 {
 	if (s1 && s2)

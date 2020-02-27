@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Itirates through each character in string "str"
+	and performs function "f" on them passing along the character position aswell.	
+*/
+
 void	ft_striteri(char *str, void (*f)(unsigned int, char *))
 {
 	unsigned int i;

@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Copies "n" amount of characters from string "src" to string "dst",
+	returns a pointer to populated string "dst"
+*/
+
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {
 	char		*tdst;

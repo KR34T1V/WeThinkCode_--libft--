@@ -12,7 +12,9 @@
 
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
-
+/*
+	Checks if string "s1" is equal to "s2" for "n" amount of characters.
+*/
 int		ft_strnequ(const char *s1, const char *s2, size_t n)
 {
 	if (!n)

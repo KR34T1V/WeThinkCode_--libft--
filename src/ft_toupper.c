@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Returns the uppercase value of "n" if it exists.
+*/
+
 int		ft_toupper(int n)
 {
 	if (ft_islower(n))

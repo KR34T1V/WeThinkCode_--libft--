@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Tries to find string "ndle" in string "h", if found a pointer
+	to the address of the occurence is returned, else NULL is returned.
+*/
+
 char	*ft_strstr(const char *h, const char *ndle)
 {
 	unsigned int	i;

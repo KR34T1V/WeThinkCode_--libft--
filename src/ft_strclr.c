@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Clears the input string setting each byte to '\0'
+*/
+
 void	ft_strclr(char *str)
 {
 	int x;
