@@ -41,7 +41,7 @@ static	int	checkloop(int const fd, char **line, char **stat)
 	return (2);
 }
 
-static int	ft_get_next_line(int const fd, char **line, char **stat)
+static int	get_next_line(int const fd, char **line, char **stat)
 {
 	char		*temp;
 	int			rtn;
@@ -56,7 +56,7 @@ static int	ft_get_next_line(int const fd, char **line, char **stat)
 	return (1);
 }
 
-int			get_next_line(int const fd, char **line)
+int			ft_get_next_line(int const fd, char **line)
 {
 	static t_list	*head = NULL;
 	t_list			*lst;
@@ -72,6 +72,6 @@ int			get_next_line(int const fd, char **line)
 		ft_lstadd(&head, lst);
 		lst->content_size = fd;
 	}
-	return (ft_get_next_line(fd, line, (char **)&lst->content));
+	return (get_next_line(fd, line, (char **)&lst->content));
 }
 

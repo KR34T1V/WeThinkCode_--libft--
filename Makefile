@@ -31,6 +31,7 @@ OBJ_DIR := obj
 SRC :=	ft_atoi.c\
 		ft_bzero.c\
 		ft_free2d_char.c\
+		ft_get_next_line.c\
 		ft_isalnum.c\
 		ft_isalpha.c\
 		ft_isascii.c\
@@ -103,7 +104,6 @@ SRC :=	ft_atoi.c\
 		ft_wordcount_white.c\
 		ft_wordcount.c\
 		ft_wstrlen.c\
-		get_next_line.c\
 #ADD SOURCE FILES HERE ^^^
 OBJ := $(addprefix $(OBJ_DIR)/, $(SRC:%.c=%.o))
 ################################################################################

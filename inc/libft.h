@@ -71,7 +71,7 @@ int					ft_putwchar(wint_t wc);
 int					ft_putwchar_fd(wint_t wc, int fd);
 int					ft_putwstr(wchar_t *ws);
 int					ft_putwstr_fd(wchar_t *ws, int fd);
-int					get_next_line(int const fd, char **line);
+int					ft_get_next_line(int const fd, char **line);
 
 size_t				ft_sizeof2d_char(char **t);
 size_t				ft_strclen(char const *str, char c);
