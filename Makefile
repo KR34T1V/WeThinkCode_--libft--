@@ -6,7 +6,7 @@
 #    By: CTerblanche <1997corry@gmail.com>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/17 11:24:40 by cterblan          #+#    #+#              #
-#    Updated: 2020/02/27 18:18:58 by CTerblanche      ###   ########.fr        #
+#    Updated: 2020/03/04 03:03:13 by CTerblanche      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,6 +83,7 @@ SRC :=	ft_atoi.c\
 		ft_striter.c\
 		ft_striteri.c\
 		ft_strjoin.c\
+		ft_strjoinfree.c\
 		ft_strlcat.c\
 		ft_strlen.c\
 		ft_strmap.c\
