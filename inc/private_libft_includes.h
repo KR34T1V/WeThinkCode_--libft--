@@ -10,5 +10,6 @@
 # include <sys/stat.h>
 # include <unistd.h>
 # include <wchar.h>
+# include <arpa/inet.h>
 
 #endif

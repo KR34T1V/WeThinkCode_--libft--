@@ -6,7 +6,7 @@
 /*   By: CTerblanche <1997corry@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/17 11:59:55 by cterblan          #+#    #+#             */
-/*   Updated: 2020/02/27 18:18:49 by CTerblanche      ###   ########.fr       */
+/*   Updated: 2020/03/19 01:28:16 by CTerblanche      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,7 @@ int					ft_islower(int n);
 int					ft_isspace(int n);
 int					ft_isprint(int n);
 int					ft_isupper(int n);
+int 				ft_isipv4(const char * addr);
 int					ft_memcmp(void const *s1, void const *s2, size_t n);
 int					ft_strcmp(char const *s1, char const *s2);
 int					ft_strequ(char const *s1, char const *s2);

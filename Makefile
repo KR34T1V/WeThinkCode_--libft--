@@ -6,7 +6,7 @@
 #    By: CTerblanche <1997corry@gmail.com>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/17 11:24:40 by cterblan          #+#    #+#              #
-#    Updated: 2020/03/04 03:03:13 by CTerblanche      ###   ########.fr        #
+#    Updated: 2020/03/19 01:29:38 by CTerblanche      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,7 @@ SRC :=	ft_atoi.c\
 		ft_iscfound.c\
 		ft_isdigit.c\
 		ft_isdir.c\
+		ft_isipv4.c\
 		ft_islower.c\
 		ft_isprint.c\
 		ft_isreg.c\
