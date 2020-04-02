@@ -56,6 +56,12 @@ static int	get_next_line(int const fd, char **line, char **stat)
 	return (1);
 }
 
+/*
+	Reads all data from the given "fd" file descriptor
+	into "line" after allocting enough space, 
+	It will return 0 when a new line is reached,
+	1 if more data is to be read and -1 on read error.
+*/
 int			ft_get_next_line(int const fd, char **line)
 {
 	static t_list	*head = NULL;
