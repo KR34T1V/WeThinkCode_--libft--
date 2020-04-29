@@ -13,7 +13,8 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 /*
-	Compares two piecies of input memory pointers up to "n" bytes
+	Compares "s1" with "s2" for "n" ammount of bytes.
+	Returns the difference should there be one.
 */
 
 int		ft_memcmp(const void *s1, const void *s2, size_t n)
@@ -25,8 +26,7 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n)
 		return (0);
 	str1 = (unsigned char *)s1;
 	str2 = (unsigned char *)s2;
-	n -= 1;
-	while (n--)
+	while (--n)
 	{
 		if (*str1++ != *str2++)
 			return (*--str1 - *--str2);

@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Counts all the words separated by white space in string "s".
+	Counts all the words separated by any white space in string "s".
 	Returns the amount of words found in string "s"
 */
 

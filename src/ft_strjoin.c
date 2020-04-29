@@ -14,8 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Joins string "s2" with string "s1", returns the allocated joined string
-	or NULL if unsuccessfull.
+	Joins string "s2" with string "s1".
+	Returns the new allocated string or NULL if unsuccessfull.
 */
 
 char	*ft_strjoin(const char *s1, const char *s2)

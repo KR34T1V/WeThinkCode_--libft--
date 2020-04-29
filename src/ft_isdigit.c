@@ -13,7 +13,8 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 /*
-	Checks if input character is a digit 0-9
+	Checks if input character is a digit (0-9).
+	Returns boolean results.
 */
 int		ft_isdigit(int n)
 {

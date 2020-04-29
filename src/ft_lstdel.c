@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+
+/*
+	Performs the (*del) function on each "t_list **alst" node.
+*/
 void	ft_lstdel(t_list **alst, void (*del)(void *, size_t))
 {
 	t_list	*lst;

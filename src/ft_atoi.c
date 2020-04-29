@@ -13,10 +13,6 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
-/*
-	converts a sting of numbers into an interger
-*/
-
 static int	ft_move_on(const char *str)
 {
 	int i;
@@ -27,6 +23,9 @@ static int	ft_move_on(const char *str)
 	return (i);
 }
 
+/*
+	Takes the given "char *str" and returns the interger conversion thereof.
+*/
 int			ft_atoi(char const *str)
 {
 	int i;

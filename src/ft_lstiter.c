@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Performs the function (*f) on each "t_list *lst" item.
+*/
+
 void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))
 {
 	while (lst)

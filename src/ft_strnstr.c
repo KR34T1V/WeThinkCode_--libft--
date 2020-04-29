@@ -13,6 +13,12 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Attempts t find string "needle", in string "haystack" up to 
+	"len" amount of characters.
+	Returns pointer to "needle" if found, or NULL.
+*/
+
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	unsigned int	i;

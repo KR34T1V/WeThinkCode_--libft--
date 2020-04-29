@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Removes all whitespaces from the front and back of the string.
+	Removes all spaces from the front and back of the string.
 	Returns an allocated trimmed string.
 */
 

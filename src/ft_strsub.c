@@ -15,9 +15,9 @@
 
 /*
 	Create an allocated sub string from string "s", starting from "start",
-	and ending at "len". If "len" exceeds the strsize it will be set to be 
-	equal to the strsize. The new allocated string is returned on success.
-	NULL is returned on any failure.
+	and ending at "len". If "len" exceeds the string size it will be set to be 
+	equal to the string "s" size.
+	New allocated string is returned on success. NULL on failure.
 */
 
 char	*ft_strsub(const char *s, unsigned int start, size_t len)

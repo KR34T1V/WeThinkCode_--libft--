@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	checks if input character is from the alphabet
+	Checks if input character is alphabetical.
+	Returns boolean results.
 */
 int		ft_isalpha(int n)
 {

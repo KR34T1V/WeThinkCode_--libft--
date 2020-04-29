@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Checks if input character is uppercase
+	Checks if input character is uppercase.
+	Returns boolean results.
 */
 
 int		ft_isupper(int n)

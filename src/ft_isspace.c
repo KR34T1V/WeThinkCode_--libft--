@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Checks if input character is whitespace
+	Checks if input character is whitespace (' ','\n','\t','\v','\f','\r').
+	Returns boolean result.
 */
 
 int		ft_isspace(int n)

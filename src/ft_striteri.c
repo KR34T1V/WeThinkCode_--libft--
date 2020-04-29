@@ -15,7 +15,7 @@
 
 /*
 	Itirates through each character in string "str"
-	and performs function "f" on them passing along the character position aswell.	
+	passing the current count and character to function (*f(char*)).
 */
 
 void	ft_striteri(char *str, void (*f)(unsigned int, char *))

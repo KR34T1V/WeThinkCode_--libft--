@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Attempts to find character "c" at "*s" for up to "n" bytes.
+	Returns the address of "c" if found, else NULL.
+*/
+
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned char *str;

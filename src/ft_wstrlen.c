@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Returns the length of a wide character string "ws"
+	Returns the length of a wide character string "ws" excluding '\0'.
 */
 
 size_t	ft_wstrlen(wchar_t *ws)

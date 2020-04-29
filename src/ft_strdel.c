@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Clears string, frees and points "str" to NULL. 
+	Clears string "str" by setting it to '\0', frees and points "str" to NULL. 
 */
 
 void	ft_strdel(char **str)

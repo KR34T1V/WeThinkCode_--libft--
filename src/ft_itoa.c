@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Converts the input interger and returns character string
+	Converts the interger "n" to a character string.
+	Returns an allocated string.	
 */
 
 static size_t	ft_getlen(int n)

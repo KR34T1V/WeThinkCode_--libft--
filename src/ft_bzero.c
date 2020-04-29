@@ -14,9 +14,9 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	clears an address in memory by setting data to 0 (null) 
+	clears "n" amount of bytes from "void ptr" by setting consecutive bytes to 0 (null).
 */
-void	ft_bzero(void *str, size_t n)
+void	ft_bzero(void *ptr, size_t n)
 {
-	ft_memset(str, 0, n);
+	ft_memset(ptr, 0, n);
 }

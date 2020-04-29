@@ -15,6 +15,7 @@
 
 /*
 	Returns the uppercase value of "n" if it exists.
+	else "n" is returned as is.
 */
 
 int		ft_toupper(int n)

@@ -14,8 +14,9 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Compares string "s1" with string "n2" for "n" ammount of characters,
-	if the strings match 0 is returned, otherwise the difference size is retiurned;
+	Compares string "s1" with string "n2" for "n" amount of characters,
+	if the strings match 0 is returned, otherwise the difference in 
+	character size is retiurned.
 */
 
 int		ft_strncmp(const char *s1, const char *s2, size_t n)

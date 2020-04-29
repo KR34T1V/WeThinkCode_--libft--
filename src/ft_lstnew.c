@@ -13,6 +13,12 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Allocates a new linked list item with enough size to hold "content" based
+	on "content_size" given.
+	Returns new allocated list on success, or NULL.
+*/
+
 t_list	*ft_lstnew(const void *content, size_t content_size)
 {
 	t_list	*lstnew;

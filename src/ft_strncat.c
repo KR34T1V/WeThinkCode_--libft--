@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Concatinates string "s2" onto string "s1" for "n" amounts of bytes.
+	Returns concatinated final string.
+*/
+
 char	*ft_strncat(char *s1, const char *s2, size_t n)
 {
 	char *temp;

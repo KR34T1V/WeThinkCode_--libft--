@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Attempts to find char "c" in string "s".
+	Returns pointer position to "c" if it is found '\0' included, or NULL.
+*/
+
 char	*ft_strchr(const char *s, int c)
 {
 	char a;

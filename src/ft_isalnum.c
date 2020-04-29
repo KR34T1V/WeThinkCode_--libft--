@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	checks if input character is alpha numeric
+	Checks if character character is alpha numeric.
+	Returns boolean results.
 */
 int		ft_isalnum(int n)
 {

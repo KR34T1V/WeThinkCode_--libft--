@@ -14,27 +14,27 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Tries to find string "ndle" in string "h", if found a pointer
+	Tries to find string "needle" in string "haystack", if found a pointer
 	to the address of the occurence is returned, else NULL is returned.
 */
 
-char	*ft_strstr(const char *h, const char *ndle)
+char	*ft_strstr(const char *haystack, const char *needle)
 {
 	unsigned int	i;
 	unsigned int	a;
 	unsigned int	lneedle;
 	char			*hay;
 
-	lneedle = ft_strlen(ndle) - 1;
-	hay = (char *)h;
+	lneedle = ft_strlen(needle) - 1;
+	hay = (char *)haystack;
 	a = 0;
-	if (!*ndle)
+	if (!*needle)
 		return (hay);
 	while (hay[a])
 	{
 		i = 0;
-		if (hay[a] == ndle[0])
-			while (hay[a + i] == ndle[i])
+		if (hay[a] == needle[0])
+			while (hay[a + i] == needle[i])
 			{
 				if (i == lneedle)
 					return (&hay[a]);

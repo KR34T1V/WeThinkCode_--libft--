@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	
+	DEPRICATED!! use ft_strchr() instread.
 */
 
 size_t	ft_strclen(char const *str, char c)

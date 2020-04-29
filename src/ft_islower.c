@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Checks if input character is lowercase
+	Checks if input character is lowercase.
+	Returns boolean results.
 */
 
 int		ft_islower(int n)

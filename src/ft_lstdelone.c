@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Performs the delete function (*del) on all "t_list **alst" items.
+*/
+
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 {
 	if (!alst || !del)

@@ -14,8 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Copies "n" bytes of memory form "src" to "dst",
-	and returns newly populated dst pointer.
+	Copies "n" bytes of memory form "src" to "dst".
+	Returns newly populated void pointer.
 */
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)

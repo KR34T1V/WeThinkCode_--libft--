@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	writes a character to a certain file descriptor
+	Writes character "c" to "fd" file descriptor.
 */
 
 void	ft_putchar_fd(char c, int fd)

@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Attempts to find the last occurance of character "int c" in string "s".
+	Returns pointer to last "c" if it is found ('\0' included), or NULL.
+*/
+
 char	*ft_strrchr(const char *s, int c)
 {
 	char a;

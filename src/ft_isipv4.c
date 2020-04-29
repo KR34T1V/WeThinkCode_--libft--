@@ -1,6 +1,7 @@
 #include "../inc/private_libft_includes.h"
 /*
-  Checks if addr is a valid ipv4 string.
+  Checks if "const char addr" is a valid ipv4 string.
+  Returns boolean results.
 */
 
 int ft_isipv4(const char * addr) {

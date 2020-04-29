@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Populates input pointer "mem" with character "c" for "len" bytes
+	Populates input pointer "mem" with character "c" for "len" amount of bytes.
+	Returns the populated pointer address. 
 */
 
 void	*ft_memset(void *mem, int c, size_t len)

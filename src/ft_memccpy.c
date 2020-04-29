@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Copies memory from "src" to "dst" for "n" ammount bytes, but stops on "c".
+	If "c" is found it returns the next memory byte position. else NULL. 
+*/
+
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
 	unsigned char		*str2;

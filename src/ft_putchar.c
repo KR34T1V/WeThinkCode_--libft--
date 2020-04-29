@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Writes a character to standard output
+	Writes character "c" to standard output.
 */
 
 void	ft_putchar(char c)

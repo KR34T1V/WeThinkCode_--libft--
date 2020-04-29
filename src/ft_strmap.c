@@ -13,6 +13,12 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Creates a duplicate string from string "s" performing function (*f)(char),
+	on each cahracter.
+	Returns the new manipulated string, if successfull or null.
+*/
+
 char	*ft_strmap(const char *s, char (*f)(char))
 {
 	char			*new;

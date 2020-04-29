@@ -14,8 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Split string "s" at every character "c", returning a string array,
-	containing all the split words
+	Split string "s" at every character "c", 
+	Returns a string array, containing all the split words.
 */
 
 char	**ft_strsplit(const char *s, char c)

@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+
+/*
+	Appends "t_list *new" to the head of "t_list **alst".
+*/
 void	ft_lstadd(t_list **alst, t_list *new)
 {
 	if (!alst || !new)

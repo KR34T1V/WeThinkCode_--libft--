@@ -13,6 +13,12 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Attepmts to concatinate str "s2" to "s1" if there is enough space.
+	If "dstsize" is too small for the concatination the amount bytes needed 
+	extra is returned. else the total size is returned.
+*/
+
 size_t	ft_strlcat(char *s1, const char *s2, size_t dstsize)
 {
 	size_t	ldst;

@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Tries to find character "c" in the input string "str", returns 1 if found, else 0
+	Tries to find character "c" in the input string "str".
+	Returns 1 if found, else 0
 */
 
 int		ft_iscfound(char const *str, char const c)

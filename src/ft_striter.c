@@ -15,7 +15,7 @@
 
 /*
 	Itirates through each character in string "str"
-	and performs function "f" on them.
+	passing them to function (*f(char*)).
 */
 
 void	ft_striter(char *str, void (*f)(char *))

@@ -13,7 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
-/*Checks if input character is a printable character*/
+/*
+	Checks if input character is a printable character.
+	Returns boolean results.
+*/
 
 int		ft_isprint(int n)
 {

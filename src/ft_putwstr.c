@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Writes a unicode string to the standard output
+	Writes a unicode string "ws" to the standard output
 */
 
 int		ft_putwstr(wchar_t *ws)

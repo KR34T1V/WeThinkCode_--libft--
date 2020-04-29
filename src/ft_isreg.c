@@ -14,7 +14,8 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	checks if input path leads to a regular file
+	Checks if input path leads to a regular file.
+	Returns boolean results.
 */
 
 int		ft_isreg(const char *path)

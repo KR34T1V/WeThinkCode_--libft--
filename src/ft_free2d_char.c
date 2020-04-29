@@ -13,7 +13,7 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 /*
-	frees a two dimentional array and sets pointer to null
+	Frees the two dimentional array "char **array" and sets the pointer to null.
 */
 void	ft_free2d_char(char **array)
 {

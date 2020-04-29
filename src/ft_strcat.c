@@ -13,6 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Concatinates string "s2" to string "s1".
+*/
+
 char	*ft_strcat(char *s1, const char *s2)
 {
 	char	*dst;

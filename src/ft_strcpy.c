@@ -14,7 +14,7 @@
 #include "../inc/private_libft_includes.h"
 
 /*
-	Copies string "src" to "dst" and returns populated pointer to "dst".
+	Copies string "src" to "dst" and returns populated pointer "dst".
 */
 
 char	*ft_strcpy(char *dst, const char *src)

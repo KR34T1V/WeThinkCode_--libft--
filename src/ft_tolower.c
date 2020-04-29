@@ -15,6 +15,7 @@
 
 /*
 	Returns the lowercase of char "n" if it exists.
+	Else returns the input value.
 */
 
 int		ft_tolower(int n)

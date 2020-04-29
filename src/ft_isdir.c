@@ -13,7 +13,8 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 /*
-	Checks if input path leads to a directory
+	Checks if input path leads to a directory.
+	Returns boolean results.
 */
 int		ft_isdir(const char *path)
 {

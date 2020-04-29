@@ -13,7 +13,10 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
-/*checks if input character is part of the ascii table*/
+/*
+	Checks if input character is part of the ascii table.
+	Returns boolean results.
+*/
 int		ft_isascii(int n)
 {
 	if (n >= 0 && n <= 127)

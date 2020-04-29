@@ -13,6 +13,11 @@
 #include "../inc/libft.h"
 #include "../inc/private_libft_includes.h"
 
+/*
+	Moves "len" ammount of memory from "src" to "dst".
+	Returns the populated pointer.
+*/
+
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	unsigned char		*strd;
