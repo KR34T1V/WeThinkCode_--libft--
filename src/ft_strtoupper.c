@@ -27,7 +27,7 @@ char *ft_strtoupper(const char *str)
     tmp = (char *)str;
 	while (tmp[i] != '\0'){
     	if (ft_islower(tmp[i])){
-        	ft_toupper(tmp[i]);
+        	tmp[i] = ft_toupper(tmp[i]);
 		}
 		i++;
 	}
