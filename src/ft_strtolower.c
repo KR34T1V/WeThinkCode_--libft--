@@ -25,9 +25,11 @@ char *ft_strtolower(const char *str)
 
 	i = 0;
     tmp = (char *)str;
-	while (tmp[i] != '\0')
-    if (ft_isupper(tmp[i]))
-        ft_tolower(tmp[i]);
+	while (tmp[i] != '\0'){
+    	if (ft_isupper(tmp[i])){
+        	ft_tolower(tmp[i]);
+		}
 		i++;
+	}
 	return (tmp);
 }
