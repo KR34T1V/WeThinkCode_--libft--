@@ -27,7 +27,7 @@ char	**ft_strsplit(const char *s, char c)
 
 	a1 = 0;
 	a2 = 0;
-	str = (char **)ft_memalloc(sizeof(char *) * ft_wordcount(s, c) + 1);
+	str = (char **)ft_memalloc(sizeof(char *) * (ft_wordcount(s, c) + 1));
 	if (!s || !str || !c)
 		return (NULL);
 	while (s[a2])

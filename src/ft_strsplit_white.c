@@ -27,7 +27,7 @@ char	**ft_strsplit_white(const char *s)
 
 	a1 = 0;
 	a2 = 0;
-	str = (char **)ft_memalloc(sizeof(char *) * ft_wordcount_white(s) + 1);
+	str = (char **)ft_memalloc(sizeof(char *) * (ft_wordcount_white(s) +1));
 	if (!s || !str)
 		return (NULL);
 	while (s[a2])
